@@ -1,0 +1,153 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(16, 0, 41);
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 78px;
+    background-color: rgb(34, 0, 66);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 23px;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: rgb(121, 121, 207);
+    transform: scale(1.08);
+}
+
+#firstsection {
+    display: flex;
+    margin: 20px 90px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 190px 0;
+    width: 50%;
+    text-align: center;
+}
+
+.rightsection img {
+    margin: 50px 83px;
+    width: 500px;
+    margin: 20px auto;
+}
+
+.purple {
+    color: blueviolet;
+}
+
+#element {
+    color: blueviolet;
+}
+
+main hr {
+    background: rgb(119, 60, 214);
+    height: 1px;
+    border: 0;
+    margin: 50px 93px;
+}
+
+#secondsection {
+    max-width: 87vw;
+    margin: auto;
+}
+
+#thirdsection {
+    margin: auto;
+    max-width: 87vw;
+}
+
+.accounts {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px;
+    flex-wrap: wrap;
+}
+
+.accounts img {
+    width: 200px;
+    margin: 10px;
+}
+
+#thirdsection .note {
+    color: rgb(166, 161, 161);
+    margin: 20px 0px;
+}
+
+.accounts img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: rgb(15, 1, 28);
+    text-align: center;
+}
+
+#footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer ul {
+    list-style: none;
+    margin: 30px 59px;
+}
+
+#footer>div {
+    width: 174px;
+}
+
+.rights {
+    text-align: center;
+    color: grey;
+}
+
+@media (max-width: 768px){
+    nav{
+        flex-direction: column;
+        padding: 10px;
+    }
+    #firstsection{
+        margin: 20px auto;
+    }
+    .leftsection{
+        font-size: 2rem;
+    }
+    .rightsection img{
+        width: 80%;
+    }
+    .accounts img{
+        width: 100px;
+    }
+    #footer{
+        flex-direction: column;
+    }
+}
